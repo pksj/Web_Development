@@ -11,12 +11,16 @@ h3 {
   /* margin-left: 15px; */
 }
 
+h3 span:hover {
+  color: hsl(178, 100%, 50%);
+}
+
 h4 {
   color: hsl(178, 100%, 50%);
   font-weight: 300;
-  display: inline;
+  /* display: inline; */
   font-size: small;
-  margin-top: 100px;
+  margin-top: 0px;
 }
 
 hr {
@@ -48,19 +52,28 @@ img {
   height: 450px;
   margin: 80px 500px;
   border-radius: 10px;
+  box-shadow: 1px 14px 5px 16px rgba(0, 0, 0, 0.1);
 }
 
 .creater_info {
   height: 30px;
   float: left;
+  display: flex;
   /* text-align: center; */
+}
+.creater_info span:hover {
+  color: hsl(178, 100%, 50%);
 }
 
 .purchase_info {
   margin-top: 10px;
   height: 18px;
+  display: flex;
 }
-
+/* 
 img:hover {
   background: hsl(178, 100%, 50%);
+} */
+img:hover::after {
+  opacity: 1;
 }
