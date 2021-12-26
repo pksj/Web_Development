@@ -11,7 +11,7 @@ h3 {
   /* margin-left: 15px; */
 }
 
-h3 span:hover {
+h3:hover {
   color: hsl(178, 100%, 50%);
 }
 
