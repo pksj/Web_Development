@@ -1,0 +1,66 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+}
+
+h3 {
+  color: white;
+  font-weight: 600;
+  font-size: large;
+  /* margin-left: 15px; */
+}
+
+h4 {
+  color: hsl(178, 100%, 50%);
+  font-weight: 300;
+  display: inline;
+  font-size: small;
+  margin-top: 100px;
+}
+
+hr {
+  border: solid hsl(215, 32%, 27%) 1px;
+  border-bottom: none;
+  /* margin: 100px auto; */
+}
+
+p {
+  font-weight: 300;
+  font-size: small;
+  color: hsl(215, 51%, 70%);
+  display: inline;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+  /* margin: 15px 15px 0px 15px; */
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  padding: 15px;
+  width: 250px;
+  height: 450px;
+  margin: 80px 500px;
+  border-radius: 10px;
+}
+
+.creater_info {
+  height: 30px;
+  float: left;
+  /* text-align: center; */
+}
+
+.purchase_info {
+  margin-top: 10px;
+  height: 18px;
+}
+
+img:hover {
+  background: hsl(178, 100%, 50%);
+}
