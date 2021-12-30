@@ -2,7 +2,10 @@ body {
   font-family: "Red Hat Display", sans-serif;
   font-size: 11px;
   text-align: center;
-  background-color: hsl(225, 100%, 94%);
+  background: hsl(225, 100%, 94%);
+  background-image: url("images/pattern-background-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 a {
@@ -10,6 +13,7 @@ a {
   text-align: center;
   padding-top: 5px;
   font-weight: bolder;
+  font-size: 1rem;
 }
 
 a:hover {
@@ -39,7 +43,7 @@ h1 {
   font-weight: 900;
 }
 
-h3 {
+h2 {
   text-align: center;
   padding-top: 8px;
   margin-top: 0px;
