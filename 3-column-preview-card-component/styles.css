@@ -1,0 +1,113 @@
+body {
+  font-size: 15px;
+}
+
+a {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+  padding: 10% 0;
+}
+
+.btn {
+  margin: 15% 0 10%;
+  border-radius: 40px;
+  background-color: white;
+  border: 2px solid;
+}
+
+.sedan .btn {
+  color: hsl(31, 77%, 52%);
+}
+
+.suv .btn {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury .btn {
+  color: hsl(179, 100%, 13%);
+}
+
+.card-group {
+  margin: 7% 20%;
+}
+
+.sedan a:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suv a:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury a:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(179, 100%, 13%);
+}
+
+.card {
+  border: 0px auto;
+  border-radius: 1rem;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+.card {
+  border: 0px;
+  padding: 2%;
+}
+
+.attribution {
+  text-align: center;
+}
+
+.attribution > a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Media Query */
+
+@media (max-width: 375px) {
+  .card-group {
+    margin: 10% 10%;
+    display: block;
+  }
+
+  .card-group > .card {
+    margin-bottom: 0px;
+    border-radius: 0rem;
+  }
+
+  .card-group > .sedan {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+
+  .card-group > .luxury {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+}
