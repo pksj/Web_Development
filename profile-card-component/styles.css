@@ -4,6 +4,8 @@
 }
 
 body {
+  min-height: 100vh;
+  min-width: 100vw;
   font-family: "Kumbh Sans", sans-serif;
   font-size: 18px;
   text-align: center;
@@ -15,7 +17,7 @@ body {
   background-color: hsl(185, 75%, 39%);
   background-repeat: no-repeat;
 
-  background-position: -25vw -70vh, 50vw 50vh;
+  background-position: right 52vw bottom 35vh, left 48vw top 52vh;
   /* background-position: -258px -489px; */
 
   /* position: relative;
