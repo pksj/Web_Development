@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Affordabel and professional web design" />
+    <meta name="author" content="Pawankumar Jawale" />
+    <title>Acme Web Design | Welcome</title>
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <style>
+      .wrapper > div {
+        background: #eee;
+        padding: 1rem;
+      }
+
+      .wrapper > div:nth-child(odd) {
+        background: #ddd;
+      }
+
+      .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-auto-rows: minmax(100px, auto);
+        grid-gap: 1em;
+        justify-items: start;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div>Box1</div>
+      <div>Box2</div>
+      <div>Box3</div>
+      <div>Box4</div>
+      <div>Box5</div>
+    </div>
+  </body>
+</html>
